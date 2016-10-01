@@ -2,6 +2,9 @@
 a UIControl category to enlarge UIControl hittest area
 
 ## Demo
+~~~objective-c
+#import "UIControl+FDEnlargeArea.h"
+~~~
 ### UIButton
 
 ~~~objective-c
