@@ -39,7 +39,7 @@
 - (CGRect)fd_enlargedRect;
 
 /**
- *   this method is used to overwrite - (UIView*)hitTest:(CGPoint)point withEvent:(UIEvent*)event
+ *   this method is used to override - (UIView*)hitTest:(CGPoint)point withEvent:(UIEvent*)event
  *
  */
 - (UIView*)fd_hitTest:(CGPoint)point withEvent:(UIEvent*)event;
