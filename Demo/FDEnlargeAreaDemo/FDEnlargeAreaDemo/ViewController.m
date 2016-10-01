@@ -47,8 +47,10 @@
 - (void)enlarge {
     [self.enlargeButton fd_setEnlargeEdge:30];
     
-    //[self.enlargeSwitch fd_setEnlargeEdge:20];
+    //invalid
+    //[self.enlargeSwitch fd_setEnlargeEdge:30];
     
+    //invalid
     [self.enlargeSlider fd_setEnlargeEdge:30];
 }
 
