@@ -15,7 +15,7 @@
 		449F671A1D9F3A2700F9ECC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449F67181D9F3A2700F9ECC7 /* LaunchScreen.storyboard */; };
 		449F67251D9F3A2700F9ECC7 /* FDEnlargeAreaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F67241D9F3A2700F9ECC7 /* FDEnlargeAreaDemoTests.m */; };
 		449F67301D9F3A2700F9ECC7 /* FDEnlargeAreaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F672F1D9F3A2700F9ECC7 /* FDEnlargeAreaDemoUITests.m */; };
-		449F67401D9F3A8400F9ECC7 /* UIControl+FDEnlargeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F673F1D9F3A8400F9ECC7 /* UIControl+FDEnlargeArea.m */; };
+		449F67471D9F4CDF00F9ECC7 /* UIControl+FDEnlargeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 449F67461D9F4CDF00F9ECC7 /* UIControl+FDEnlargeArea.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		449F672B1D9F3A2700F9ECC7 /* FDEnlargeAreaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDEnlargeAreaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		449F672F1D9F3A2700F9ECC7 /* FDEnlargeAreaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDEnlargeAreaDemoUITests.m; sourceTree = "<group>"; };
 		449F67311D9F3A2700F9ECC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		449F673E1D9F3A8400F9ECC7 /* UIControl+FDEnlargeArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+FDEnlargeArea.h"; sourceTree = "<group>"; };
-		449F673F1D9F3A8400F9ECC7 /* UIControl+FDEnlargeArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+FDEnlargeArea.m"; sourceTree = "<group>"; };
+		449F67451D9F4CDF00F9ECC7 /* UIControl+FDEnlargeArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+FDEnlargeArea.h"; sourceTree = "<group>"; };
+		449F67461D9F4CDF00F9ECC7 /* UIControl+FDEnlargeArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+FDEnlargeArea.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		449F67091D9F3A2700F9ECC7 /* FDEnlargeAreaDemo */ = {
 			isa = PBXGroup;
 			children = (
-				449F673D1D9F3A3700F9ECC7 /* FDEnlargeArea */,
+				449F67441D9F4CDF00F9ECC7 /* FDEnlargeArea */,
 				449F670D1D9F3A2700F9ECC7 /* AppDelegate.h */,
 				449F670E1D9F3A2700F9ECC7 /* AppDelegate.m */,
 				449F67101D9F3A2700F9ECC7 /* ViewController.h */,
@@ -144,13 +144,14 @@
 			path = FDEnlargeAreaDemoUITests;
 			sourceTree = "<group>";
 		};
-		449F673D1D9F3A3700F9ECC7 /* FDEnlargeArea */ = {
+		449F67441D9F4CDF00F9ECC7 /* FDEnlargeArea */ = {
 			isa = PBXGroup;
 			children = (
-				449F673E1D9F3A8400F9ECC7 /* UIControl+FDEnlargeArea.h */,
-				449F673F1D9F3A8400F9ECC7 /* UIControl+FDEnlargeArea.m */,
+				449F67451D9F4CDF00F9ECC7 /* UIControl+FDEnlargeArea.h */,
+				449F67461D9F4CDF00F9ECC7 /* UIControl+FDEnlargeArea.m */,
 			);
-			path = FDEnlargeArea;
+			name = FDEnlargeArea;
+			path = ../../../FDEnlargeArea;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +293,7 @@
 				449F67121D9F3A2700F9ECC7 /* ViewController.m in Sources */,
 				449F670F1D9F3A2700F9ECC7 /* AppDelegate.m in Sources */,
 				449F670C1D9F3A2700F9ECC7 /* main.m in Sources */,
-				449F67401D9F3A8400F9ECC7 /* UIControl+FDEnlargeArea.m in Sources */,
+				449F67471D9F4CDF00F9ECC7 /* UIControl+FDEnlargeArea.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +531,7 @@
 				449F67361D9F3A2700F9ECC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		449F67371D9F3A2700F9ECC7 /* Build configuration list for PBXNativeTarget "FDEnlargeAreaDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +540,7 @@
 				449F67391D9F3A2700F9ECC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		449F673A1D9F3A2700F9ECC7 /* Build configuration list for PBXNativeTarget "FDEnlargeAreaDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +549,7 @@
 				449F673C1D9F3A2700F9ECC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
