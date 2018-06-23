@@ -1,0 +1,22 @@
+{
+  "name": "FDEnlargeArea",
+  "version": "0.1.0",
+  "summary": "A UIControl category to enlarge UIControl hittest area.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/toolazytoname/FDEnlargeArea",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "toolazytoname": "lazywc@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/toolazytoname/FDEnlargeArea.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FDEnlargeArea/Classes/**/*"
+}

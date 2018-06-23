@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FDEnlargeArea_Example' do
+  pod 'FDEnlargeArea', :path => '../'
+
+  target 'FDEnlargeArea_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - FDEnlargeArea (0.1.0)
+
+DEPENDENCIES:
+  - FDEnlargeArea (from `../`)
+
+EXTERNAL SOURCES:
+  FDEnlargeArea:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FDEnlargeArea: f9eaecac539de029c610043f7fe7a857c7e59558
+
+PODFILE CHECKSUM: 1b4f2471205b1da54581d27572126cb367fd8efc
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module FDEnlargeArea {
+  umbrella header "FDEnlargeArea-umbrella.h"
+
+  export *
+  module * { export * }
+}
